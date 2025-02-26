@@ -1,0 +1,55 @@
+body {
+    background-color: #f9f9f9;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+.alert {
+    font-weight: bold;
+}
+
+button[type="submit"] {
+    font-weight: bold;
+}
+body {
+    background-color: #f9f9f9;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+.alert {
+    font-weight: bold;
+}
+
+button[type="submit"] {
+    font-weight: bold;
+}
+
+/* produk.css */
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h2 {
+    color: #343a40;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+}

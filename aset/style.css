@@ -1,0 +1,74 @@
+
+/* bagian cutomer */
+/* Warna dan font */
+:root {
+  --warna-utama: #333;
+  --warna-sekunder: #fff;
+  --font-utama: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: var(--warna-utama);
+  color: var(--warna-sekunder);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigasi */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: var(--warna-sekunder);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+/* Logo */
+.logo {
+  margin-top: 20px;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px;
+  }
+
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+}

@@ -1,0 +1,178 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.bg-primary {
+  background-color: #add8e6 !important; /* Light blue */
+}
+
+.text-primary {
+  color: #add8e6 !important; /* Light blue */
+}
+
+.btn-dark {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-dark:hover {
+  background-color: #23272b;
+  border-color: #1d2124;
+}
+
+/* Header Styles */
+header {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+header.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+header .input-group {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Main Content Styles */
+main {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+}
+
+main .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 1.5rem;
+  margin: 1rem;
+  position: relative; /* For animation */
+  border: 1px solid #dee2e6; /* Card border */
+  border-radius: 0.5rem; /* Rounded corners */
+  background-color: white; /* Card background color */
+}
+
+main .card img {
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+main .card:hover {
+  transform: translateY(-10px) rotate(2deg); /* Move up and slight rotation */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+main .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+main .card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+main .btn-primary {
+  background-color: #add8e6;
+  border-color: #add8e6;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+main .btn-primary:hover {
+  background-color: #add8e6;
+  transform: scale(1.05);
+}
+
+.promotions-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line if they don't fit */
+  justify-content: center; /* Center the cards */
+  gap: 1rem; /* Space between cards */
+}
+
+/* Card Styles */
+.card {
+  flex: 0 1 300px; /* Minimum card size, can be adjusted */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 1.5rem;
+  margin: 1rem;
+  position: relative; /* For animation */
+  border: 1px solid #dee2e6; /* Card border */
+  border-radius: 0.5rem; /* Rounded corners */
+  background-color: white; /* Card background color */
+}
+
+.card img {
+  margin-bottom: 1rem;
+}
+
+.card:hover {
+  transform: translateY(-10px) rotate(2deg); /* Move up and slight rotation */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #3490dc;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #2779bd;
+}
+
+/* Text Styles */
+.description {
+  font-size: 0.9rem;
+}
+
+.discount {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #e3342f; /* Red color for discount */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  text-align: center;
+  padding: 1rem 0;
+  border-top: 1px solid #dee2e6;
+}
+
+/* Fixed Bottom Navigation Styles */
+.fixed-bottom-nav {
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+}
+
+.fixed-bottom-nav .nav-link {
+  color: #6c757d;
+}
+
+.fixed-bottom-nav .nav-link.active {
+  color: #add8e6;
+}

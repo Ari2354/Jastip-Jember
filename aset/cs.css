@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa;
+}
+header {
+    background: linear-gradient(90deg, rgb(149, 255, 0) 0%, rgb(104, 255, 58) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+h1, h2, h3 {
+    color: #343a40;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.75);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
+.card {
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #343a40;
+}
